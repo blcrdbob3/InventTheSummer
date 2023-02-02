@@ -2,3 +2,8 @@ function sortdata(array) {
   for
  //first we need to figure out exactly what we are going to sort, and how they get data(excel,spreadhseets, so that we have input?
  //https://github.com/ugrcoban/nodejs-mysql 
+CREATE TABLE [Participant] . [Abode]
+(
+
+
+)
