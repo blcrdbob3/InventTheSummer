@@ -1,9 +1,17 @@
-function sortdata(array) {
-  for
- //first we need to figure out exactly what we are going to sort, and how they get data(excel,spreadhseets, so that we have input?
- //https://github.com/ugrcoban/nodejs-mysql 
-CREATE TABLE [Participant] . [Abode]
+CREATE TABLE [Participants for Invent the Summer].[Identify]
 (
+[Identify] [int] NOT NULL IDENTITY 
+[Firstname_id] [varchar] NOT NULL IDENTITY
+[Lastname_id] [varchar] NOT NULL IDENTITY
+[School_id] [varchar]
+[Address_id] [varchar]
 
-
+[Start_date] [datetime] NULL,
+[End_date] [datetime] NULL,
+[ModifiedDate] [datetime] NOT NULL CONSTRAINT [DF__Identity__]
+  ON [PRIMARY]
 )
+GO
+
+ALTER TABLE [Participants for Invent the Summer].[Identify] ADD CONSTRAINT [PK__Identify__ ]
+GO
